@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.executables   = ['generamba']
   spec.require_paths = ['lib']
 
-  spec.required_ruby_version = '>= 3.4'
+  spec.required_ruby_version = '>= 3.2.2'
 
 spec.add_runtime_dependency 'thor', '~> 1.3.0'          # Latest stable: 1.3.0  
 spec.add_runtime_dependency 'xcodeproj', '~> 1.24.0'    # Latest stable: 1.24.0  
